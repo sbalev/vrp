@@ -1,0 +1,36 @@
+node {
+	visibility-mode: hidden;
+}
+node.warehouse {
+	visibility-mode: normal;
+	size: 8px;
+	fill-color: #555;
+	text-size: 12px;
+	text-style: bold;
+	text-alignment: at-right;
+}
+node.client {
+	visibility-mode: normal;
+	size: 6px;
+	fill-color: #777;
+	text-size: 12px;
+	text-style: bold;
+	text-alignment: at-right;
+}
+
+edge {
+	size: 1px;
+	fill-color: #CCC;
+}
+
+edge.path {
+	size: 2px;
+	fill-mode: dyn-plain;
+	fill-color: #F00, #FF0, #0F0, #0FF, #00F, #F0F;
+}
+sprite {
+	size: 12px;
+	shape: diamond;
+	fill-mode: dyn-plain;
+	fill-color: #F00, #FF0, #0F0, #0FF, #00F, #F0F;	
+}
