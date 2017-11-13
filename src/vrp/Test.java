@@ -38,7 +38,7 @@ public class Test {
 					sol.getVehiclePathLength(i));
 			for (int j = 0; j < sol.getClientCount(i); j++)
 				System.out.printf("%4s",
-						sol.getClient(i, j).getAttribute("ui.label"));
+						(String)(sol.getClient(i, j).getAttribute("ui.label")));
 			System.out.println();
 		}
 	}
